@@ -59,11 +59,12 @@ ul {
 }
 
 button {
-  padding: 0.4rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-weight: bold;
   background-color: #3882f6;
   color: #f9faf8;
   border-radius: 0.4rem;
+  flex-shrink: 0;
 }
 
 .sign-up1 {
@@ -133,12 +134,45 @@ button {
   font-weight: bolder;
   align-self: flex-end;
   padding-bottom: 8rem;
-  
+
+}
+
+#body4 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18rem;
+}
+
+.blue-section {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  padding: 3rem 7rem;
+  border-radius: .7rem;
+}
+
+
+.sign-up2 {
+  border-color: #e5e7eb;
+  border-style: solid;
+  align-self: center;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bolder;
+}
+
+.call {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+#footer {
+  display: flex;
+  height: 4rem;
+  text-align: center;
 }
 
 .hero-main {

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* I used non-uniform standards for CSS to review and practice concepts. */
+
+#header,
+#body1,
+#footer {
+  background-color: #1f2937; 
+}
+
+#body3 {
+  background-color: #e5e7eb;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.hero-main {
+  font-size: 48px;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.info-box {
+  font-size: 18px;
+}
+
+.dark-text {
+  color: #1f2937;
+}
+
+.light-text {
+  color: #f9faf8;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-author {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.blue-section {
+  background-color: #3882f6;
+}
+

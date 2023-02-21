@@ -113,6 +113,29 @@ button {
   border-radius: 1rem;
 }
 
+#body3 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 8rem 8rem 0rem 8rem;
+  min-width: 30rem;
+}
+
+.quote-author {
+  display: flex;
+  font-size: 22px;
+  font-weight: bolder;
+  align-self: flex-end;
+  padding-bottom: 8rem;
+  
+}
+
 .logo {
   font-size: 24px;
   font-weight: bolder;
@@ -138,17 +161,6 @@ button {
 
 .light-text {
   color: #f9faf8;
-}
-
-.quote {
-  font-size: 36px;
-  font-style: italic;
-  font-weight: lighter;
-}
-
-.quote-author {
-  font-size: 22px;
-  font-weight: bolder;
 }
 
 .blue-section {

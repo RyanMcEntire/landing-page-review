@@ -1,18 +1,31 @@
 body {
   margin: 0;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* I used non-uniform standards for CSS to review and practice concepts. */
 
+body > div > div {
+  margin: auto;
+  max-width: 64rem;
+  padding-inline: 8rem;
+}
+
 #header,
 #body1,
 #footer {
-  background-color: #1f2937; 
+  background-color: #1f2937;
 }
 
 #body3 {
   background-color: #e5e7eb;
+}
+
+#header > div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
 }
 
 ul {
@@ -20,6 +33,42 @@ ul {
   padding: 0;
   margin: 0;
   color: #e5e7eb;
+  display: flex;
+  gap: 1rem;
+}
+
+#body1 > div {
+  display: flex;
+  gap: 4rem;
+  padding-bottom: 7rem;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image-box {
+  width: 36rem;
+  height: 12rem;
+  background-color: gray;
+  flex-shrink: .25;
+  text-align: center;
+  
+}
+
+button {
+  padding: .4rem 1.5rem;
+  font-weight: bold;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: .4rem;
+}
+
+.sign-up1 {
+  align-self: flex-start;
+  margin-top: .4rem;
+  border-style: none;
 }
 
 .logo {
@@ -66,4 +115,3 @@ ul {
 .blue-section {
   background-color: #3882f6;
 }
-
